@@ -13,3 +13,5 @@ the AWS php sdk autoloaded, I recomend using composer
 Anywhere you would normally use, "$sdk = new Aws\Sdk" or similar, you can skip and use something like,
 
 eg. $dynamodb = $this->aws->createDynamoDb();
+
+Because the Aws_library.php globally assigns the initialization of the AWS SDK to $CI->aws, which is accessable at $this->aws in controllers and models.
