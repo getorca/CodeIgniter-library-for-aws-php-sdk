@@ -6,7 +6,9 @@ the AWS php sdk autoloaded, I recomend using composer
 
 # Installation
 1 - Copy the aws.php config file to your codeigniter config folder.  Update your region, and AWS credentials.
+
 2 - move the Aws_library.php file to the codeigniter libraries folder.
+
 3 - Optional but recomended, add 'aws_library' to the config/autoloader.php $autoload['libraries'] array
 
 # Usage
